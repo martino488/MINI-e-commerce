@@ -1,0 +1,71 @@
+body {
+   background-image: url('./image/backshop2.png');
+    margin: 20px;
+}
+
+.magazzino-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ff0076;
+    border-radius: 5px;
+    background-color: #d4ff1277;
+}
+
+.magazzino-container h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    color: black;
+}
+th{
+    color: black;
+}
+
+td{
+    color: black;
+}
+#magazzino-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#magazzino-table th, #magazzino-table td {
+    border: 1px solid#ff0076;
+    padding: 8px;
+    text-align: left;
+}
+
+#magazzino-table th {
+    background-color: #d3ff12;
+}
+
+.modifica-stock-button {
+    padding: 8px 12px;
+    background-color: #070707; 
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.modifica-stock-button:hover {
+    background-color: #ff0076;
+}
+
+.torna-home-button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.torna-home-button:hover {
+    background-color: #ff0076;
+}
